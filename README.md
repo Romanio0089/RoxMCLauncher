@@ -1,2 +1,2 @@
 # RoxMCLauncher
-RoxMCLauncher updates and issues submit repository.
+RoxMCLauncher download and issues submit repository.
