@@ -1,6 +1,7 @@
 [Desktop Entry]
+Version=1.0
 Type=Application
-Terminal=false
+Terminal=true
 Name=RoxMCLauncher
 Icon=/usr/RoxMCLauncher/icon.svg
-Exec=/usr/RoxMCLauncher/RMCLoader.sh
+Exec=sudo bash /usr/RoxMCLauncher/RMCLoader.sh
