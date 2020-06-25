@@ -4,4 +4,4 @@ Type=Application
 Terminal=true
 Name=RoxMCLauncher
 Icon=/usr/RoxMCLauncher/logormclhighres.png
-Exec=sudo bash /usr/RoxMCLauncher/RMCLoader.sh
+Exec=bash /usr/RoxMCLauncher/RMCLoader.sh
