@@ -1,1 +1,1 @@
-java -jar RMCL.jar
+java -jar /usr/RoxMCLauncher/RMCL.jar
