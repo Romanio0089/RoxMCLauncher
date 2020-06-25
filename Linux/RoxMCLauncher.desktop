@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Terminal=true
+Terminal=false
 Name=RoxMCLauncher
 Icon=/usr/RoxMCLauncher/icon.svg
 Exec=/usr/RoxMCLauncher/RMCLoader.sh
