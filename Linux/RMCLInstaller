@@ -22,7 +22,7 @@ sudo apt install curl
 sudo curl http://downtherack.free.fr/RoxMCLauncher/RMCL.jar --output RMCL.jar
 sudo curl https://raw.githubusercontent.com/Romanio0089/RoxMCLauncher/master/Linux/RMCLoader.sh --output RMCLoader.sh
 sudo curl https://raw.githubusercontent.com/Romanio0089/RoxMCLauncher/master/Linux/RoxMCLauncher.desktop --output RoxMCLauncher.desktop
-sudo curl http://downtherack.free.fr/RoxMCLauncher/icon.svg --output icon.svg
+sudo curl http://downtherack.free.fr/RoxMCLauncher/logormclhighres.png--output logormclhighres.png
 sudo cp RoxMCLauncher.desktop ~/.local/share/applications/
 cd ~/.local/share/applications/
 sudo chmod a+x RoxMCLauncher.desktop
