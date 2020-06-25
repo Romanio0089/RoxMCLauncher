@@ -6,7 +6,7 @@ read input
 if [ "$input" == "yes" "y" "Y" ]
 then
 echo "continue"
-fi
 sudo mkdir /RoxMCLauncher
 cd /RoxMCLauncher
 curl 'http://downtherack.free.fr/RoxMCLauncher/RMCL.jar'
+fi
