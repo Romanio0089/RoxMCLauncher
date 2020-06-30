@@ -28,4 +28,4 @@ cd ~/.local/share/applications/
 sudo chmod a+x RoxMCLauncher.desktop
 desktop-file-validate RoxMCLauncher.desktop
 sudo update-desktop-database
-echo "RoxMCLauncher has been installed ! To run it, search for RoxMCLauncher in the app library."
+echo "RoxMCLauncher has been installed ! To run it, search for RoxMCLauncher in the app library or execute the command: java -jar /usr/RoxMCLauncher/RMCL.jar"
