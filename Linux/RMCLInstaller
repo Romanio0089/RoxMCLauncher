@@ -8,7 +8,7 @@ case $input in
  ;;
     [nN][oO]|[nN])
  echo "Operation cancelled"
-       ;;
+       exit;;
     *)
  echo "Invalid input..."
  exit 1
