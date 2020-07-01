@@ -15,8 +15,8 @@ case $input in
  ;;
 esac
 
-sudo mkdir /usr/RoxMCLauncher
-cd /usr/RoxMCLauncher
+sudo mkdir ~/Applications/RoxMCLauncherFiles/
+cd ~/Applications/RoxMCLauncherFiles/
 sudo curl http://downtherack.free.fr/RoxMCLauncher/RMCL.jar --output RMCL.jar
 sudo curl https://raw.githubusercontent.com/Romanio0089/RoxMCLauncher/master/Linux/RoxMCLauncherApp.zip --output RoxMCLauncherApp.zip
 sudo unzip RoxMCLauncherApp.zip -d ~/Applications/
