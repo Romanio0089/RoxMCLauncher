@@ -15,11 +15,11 @@ case $input in
  ;;
 esac
 
-sudo mkdir ~/Applications/RoxMCLauncherFiles/
-cd ~/Applications/RoxMCLauncherFiles/
+sudo mkdir /Library/RoxMCLauncherFiles/
+cd /Library/RoxMCLauncherFiles/
 sudo curl http://downtherack.free.fr/RoxMCLauncher/RMCL.jar --output RMCL.jar
 sudo curl https://raw.githubusercontent.com/Romanio0089/RoxMCLauncher/master/macOS/RoxMCLauncherApp.zip --output RoxMCLauncherApp.zip
-sudo unzip RoxMCLauncherApp.zip -d ~/Applications/
-cd ~/Applications/
+sudo unzip RoxMCLauncherApp.zip -d /Applications/
+cd /Applications/
 sudo chmod +x RoxMCLauncher.app
 echo "RoxMCLauncher has been installed ! To run it, search for RoxMCLauncher in the applications !"
