@@ -18,6 +18,7 @@ esac
 sudo mkdir /usr/RoxMCLauncher
 cd /usr/RoxMCLauncher
 sudo apt update && sudo apt upgrade
+sudo apt install openjdk-8-jre openjdk-8-jre-headless
 sudo apt install curl
 sudo curl http://downtherack.free.fr/RoxMCLauncher/RMCL.jar --output RMCL.jar
 sudo curl https://raw.githubusercontent.com/Romanio0089/RoxMCLauncher/master/Linux/RMCLoader.sh --output RMCLoader.sh
