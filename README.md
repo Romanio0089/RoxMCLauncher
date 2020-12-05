@@ -9,3 +9,7 @@ OS: Windows 7 or later, macOS (Mac OS X) 10.6 or later, relativly new Linux vers
 At least 400 MB of free disk space (including Minecraft installation).
 
 Java 8 JRE is required to be able to launch RoxMCLauncher.
+
+## Credits
+
+Based on SKCraft Minecraft Launcher : https://github.com/SKCraft/Launcher
