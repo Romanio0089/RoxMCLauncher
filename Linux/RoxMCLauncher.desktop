@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=true
-Name=RoxMCLauncher
-Icon=/usr/RoxMCLauncher/logormclhighres.png
-Exec=bash /usr/RoxMCLauncher/RMCLoader.sh
