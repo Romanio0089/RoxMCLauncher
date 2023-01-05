@@ -1,7 +1,7 @@
 # RoxMCLauncher
 **RoxMCLauncher** is a third-party Minecraft launcher for competitive players that play on 1.8.9. It features a modpack designed to make your PVP experience as good as possible.
 
-This repository features the source code of RMCL, and hosts the necessary files for RMCL to work.
+This repository only features folders with files that were modified from SKCraft Launcher, the full source code can be found [here](https://github.com/SKCraft/Launcher).
 
 ## System Requirements
 A system capable of running Minecraft
