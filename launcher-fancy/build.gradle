@@ -1,0 +1,36 @@
+plugins {
+    id 'application'
+    id "com.github.johnrengelman.shadow"
+    id 'io.freefair.lombok'
+}
+
+application {
+    mainClassName = "com.skcraft.launcher.FancyLauncher"
+}
+
+repositories {
+    maven {
+        name = 'obw maven'
+        url = 'https://maven.offbeatwit.ch/repository/snapshots'
+    }
+}
+
+dependencies {
+    implementation project(path: ':launcher')
+    implementation 'io.github.cottonmc.insubstantial:substance:7.3.1-SNAPSHOT'
+}
+
+shadowJar {
+    dependsOn ':launcher:shadowJar'
+    archiveClassifier.set("")
+}
+
+// Work around gradle shadow bug
+// see https://github.com/johnrengelman/shadow/issues/713
+startScripts.dependsOn(':launcher:shadowJar')
+distTar.dependsOn(':launcher:shadowJar')
+distZip.dependsOn(':launcher:shadowJar')
+
+build {
+    dependsOn(shadowJar)
+}
